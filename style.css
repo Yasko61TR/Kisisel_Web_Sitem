@@ -25,13 +25,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* İçeriğin arkasında kalsın */
+    z-index: -1; /* İçeriğin arkasında kalması için */
     overflow: hidden;
 }
 
 .shape {
     position: absolute;
-    filter: blur(100px); /* Şekilleri bulanıklaştırarak o ışık hüzmesi efektini veriyoruz */
+    filter: blur(100px); /* Şekilleri bulanıklaştır ışık hüzmesi ver */
     opacity: 0.5;
     animation: floatAnimation 20s infinite alternate ease-in-out;
 }

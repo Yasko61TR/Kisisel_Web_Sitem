@@ -1,10 +1,10 @@
-// BURASI SENİN BİLGİLERİN - SADECE BURAYI DÜZENLE
+// Kişisel Bilgi Yeri
 const kullaniciBilgileri = {
     isim: "Yasin Uzun",
     unvan: "Yazılım Mühendisliği Öğrencisi",
     hakkimda: "Merhaba! Ben yazılım dünyasına yeni adım atmış, öğrenmeye aç bir mühendis adayıyım. Şu an algoritmaların mantığını kavrıyor ve temel diller üzerinde çalışıyorum. Hedefim temiz kod yazan, global projelerde yer alan bir geliştirici olmak.",
     
-    // Sosyal Medya Linklerin (Varsa linki yapıştır, yoksa boş bırak)
+    // Sosyal Medya Linkleri
     linkler: {
         github: "https://github.com/Yasko61TR",
         linkedin: "https://www.linkedin.com/in/yasin-uzun-b06027382?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -12,7 +12,7 @@ const kullaniciBilgileri = {
     
     },
 
-    // Yeteneklerin (Yeni öğrendikçe buraya virgül koyup ekle)
+    // Yeteneklerim (Yeni öğrendikçe buraya virgül koyup ekle)
     yetenekler: [
         "C Programlama (Temel)",
         "Algoritma Mantığı",
@@ -22,7 +22,7 @@ const kullaniciBilgileri = {
     ]
 };
 
-// --- AŞAĞISI SİHİR KISMI (DOKUNMANA GEREK YOK) ---
+
 // Bu kodlar yukarıdaki verileri alıp sayfaya yerleştirir.
 document.addEventListener("DOMContentLoaded", () => {
     // İsim ve Ünvanı Yaz
